@@ -3,6 +3,8 @@
 .DS_Store
 .vscode
 
+node_modules
+
 # dependencies
 /node_modules
 /.pnp
