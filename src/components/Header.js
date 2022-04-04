@@ -1,6 +1,17 @@
 import React from "react";
 import '../App.css';
 
+// import images
+import Self from '../assets/images/self.png';
+
+const styles = {
+    imgStyle: {
+        height: "25rem",
+         width: "25rem"
+    }
+}
+
+
 function Header () {
     return (
         <>
@@ -11,7 +22,7 @@ function Header () {
             <div className="row justify-content-between pb-lg-5 pb-md-4 pb-md-3 ">
                 {/* <!-- left column with headshot photo --> */}
                 <div className="col-lg-8 col-md-7 col-6 ">
-                    <img src="./assets/images/self.png" className=" float-start img-fluid" alt="Photo Headshot of Lo Selby" height="350px" width="350px"/>
+                    <img src={Self} className=" float-start img-fluid" alt="Photo Headshot of Lo Selby" style={styles.imgStyle}/>
                 </div>
 
                 {/* <!-- right column featuring web development blurb --> */}
