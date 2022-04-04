@@ -31,9 +31,9 @@ Seasoned CX Leader in tech turned Engineer with proficiency in full-stack develo
 
 ## Mockup
 
-![The portfolio uses dynamic buttons to slide down the About and Contact Me section anda  scroll up button.](./assets/images/portfolio1.png)
+![The portfolio uses dynamic buttons to slide down the About and Contact Me section anda  scroll up button.](./src/assets/images/portfolio1.png)
 
-![The portfolio uses dynamic buttons to slide down the About and Contact Me section anda  scroll up button.](./assets/images/portfolio3.png)
+![The portfolio uses dynamic buttons to slide down the About and Contact Me section anda  scroll up button.](./src/assets/images/portfolio3.png)
 
 ## License
 MIT License
