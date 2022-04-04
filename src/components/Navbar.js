@@ -2,6 +2,10 @@ import React from "react";
 import '../App.css';
 
 import linkedIn from '../assets/images/LI-black.png';
+import github from '../assets/images/GitHub-Mark-64px.png';
+import mail from '../assets/images/mail-icon-removebg-preview.png';
+import download from '../assets/images/download-icon.png';
+import resume from '../assets/images/lo-selby-resume.pdf';
 
 function Navbar () {
     return (
@@ -20,15 +24,15 @@ function Navbar () {
 
                 </p>
                 <div id="resumeBtn" className="mb-2">
-                  <a id="shadow-link" className="link-dark fs-5 "  href="./assets/images/lo-selby-resume.png" download> <img src="./assets/images/download-icon.png" alt="Download Icon" height="22" width="22"/> Resume</a>
+                  <a id="shadow-link" className="link-dark fs-5 "  href={resume}> <img src={download} alt="Download Icon" height="22" width="22"/> Resume</a>
                 </div>
               </div>
               <div id="contact-div" className="col-sm-12 col-md-2 py-4 py-sm-0 pb-sm-3 pt-sm-4 text-center mx-auto my-auto ">
                 <h3 id="shadow" className="text-dark fw-bold">Contact</h3>
               <span>
-                <a className="text-muted" href="https://www.linkedin.com/in/loselby/"><img src='linkedIn' width="25" height="20" alt="LinkedIn Logo"/></a>
-                <a className="text-muted" href="https://github.com/lonewolfco"><img src="../assets/images/GitHub-Mark-64px.png" width="23" height="21" alt="GitHub Logo"/></a>
-                <a className="text-muted" href="mailto:loselby@icloud.com"><img src="../assets/images/mail-icon-removebg-preview.png" width="25" height="22" alt="GitHub Logo"/></a>
+                <a className="text-muted" href="https://www.linkedin.com/in/loselby/"><img src={linkedIn} width="25" height="20" alt="LinkedIn Logo"/></a>
+                <a className="text-muted" href="https://github.com/lonewolfco"><img src={github} width="23" height="21" alt="GitHub Logo"/></a>
+                <a className="text-muted" href="mailto:loselby@icloud.com"><img src={mail} width="25" height="22" alt="Mail Icon"/></a>
               </span>
               </div>
             </div>
