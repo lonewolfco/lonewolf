@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/lonewolf/static/css/main.800cb000.css",
+    "main.js": "/lonewolf/static/js/main.d80ff53c.js",
+    "static/js/787.af8a8682.chunk.js": "/lonewolf/static/js/787.af8a8682.chunk.js",
+    "static/media/dejabrew.png": "/lonewolf/static/media/dejabrew.ff8dc64ab0f9c7a2b661.png",
+    "static/media/self.png": "/lonewolf/static/media/self.a09c343b1df6e6382d7d.png",
+    "static/media/datacom.png": "/lonewolf/static/media/datacom.b64653f35fecb6075bcc.png",
+    "static/media/readmepro.png": "/lonewolf/static/media/readmepro.b4b8cc576c12ee60990c.png",
+    "static/media/weatherhub.png": "/lonewolf/static/media/weatherhub.ef711bd565ec0c23516e.png",
+    "static/media/planyourday.png": "/lonewolf/static/media/planyourday.29d9f70ff4655b81ea5a.png",
+    "static/media/lo-selby-resume.pdf": "/lonewolf/static/media/lo-selby-resume.dd5e0db6d4cca710c6c9.pdf",
+    "static/media/notepadImg.png": "/lonewolf/static/media/notepadImg.10227725f46c5c013576.png",
+    "static/media/mail-icon-removebg-preview.png": "/lonewolf/static/media/mail-icon-removebg-preview.bf53fbf9a7ea63f6e361.png",
+    "static/media/stickynote.png": "/lonewolf/static/media/stickynote.5540e30f7bab4c608225.png",
+    "static/media/LI-black.png": "/lonewolf/static/media/LI-black.b0e5779b8820b650d3a4.png",
+    "static/media/4.png": "/lonewolf/static/media/4.5162dcdf798459dda9b3.png",
+    "static/media/notepad.png": "/lonewolf/static/media/notepad.b9b4058d1df0f430aeb7.png",
+    "index.html": "/lonewolf/index.html",
+    "main.800cb000.css.map": "/lonewolf/static/css/main.800cb000.css.map",
+    "main.d80ff53c.js.map": "/lonewolf/static/js/main.d80ff53c.js.map",
+    "787.af8a8682.chunk.js.map": "/lonewolf/static/js/787.af8a8682.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.800cb000.css",
+    "static/js/main.d80ff53c.js"
+  ]
+}
