@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lonewolf/static/css/main.bc21a532.css",
-    "main.js": "/lonewolf/static/js/main.0068de6b.js",
+    "main.js": "/lonewolf/static/js/main.f888a6e1.js",
     "static/js/787.af8a8682.chunk.js": "/lonewolf/static/js/787.af8a8682.chunk.js",
     "static/media/dejabrew.png": "/lonewolf/static/media/dejabrew.ff8dc64ab0f9c7a2b661.png",
     "static/media/self.png": "/lonewolf/static/media/self.a09c343b1df6e6382d7d.png",
@@ -19,11 +19,11 @@
     "static/media/notepad.png": "/lonewolf/static/media/notepad.b9b4058d1df0f430aeb7.png",
     "index.html": "/lonewolf/index.html",
     "main.bc21a532.css.map": "/lonewolf/static/css/main.bc21a532.css.map",
-    "main.0068de6b.js.map": "/lonewolf/static/js/main.0068de6b.js.map",
+    "main.f888a6e1.js.map": "/lonewolf/static/js/main.f888a6e1.js.map",
     "787.af8a8682.chunk.js.map": "/lonewolf/static/js/787.af8a8682.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc21a532.css",
-    "static/js/main.0068de6b.js"
+    "static/js/main.f888a6e1.js"
   ]
 }
