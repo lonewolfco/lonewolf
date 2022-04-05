@@ -9,7 +9,7 @@ Live Page: https://lonewolfco.github.io/lonewolf
 ## About Lo
 Seasoned CX Leader in tech turned Engineer with proficiency in full-stack development. Skilled in working with a team, developing plans, managing projects, and user documentation. My passions lie with debugging code, mobile functionality, learning the latest technologies, and enhancing user experience with the customer in mind.
 
-Lo's portfolio is designed with minimilistic design in mind with touches of color that compliment the header image to tie it in, in a thoughtful approach. 
+Lo's portfolio is designed with minimilistic design in mind with a dynamic navigation that slides down the about/contact me section from the top of the page and includes touches of color that compliment the header image to tie it in, in a thoughtful approach. 
 
 
 ## Included in Portfolio
