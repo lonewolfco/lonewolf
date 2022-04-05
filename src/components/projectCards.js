@@ -22,7 +22,7 @@ const styles = {
         card: {
             marginTop: '5rem',
             height: '35rem', 
-            width: '27rem',
+            width: '22rem',
             boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px'
         },
         header: {
@@ -120,7 +120,7 @@ function ProjectCards () {
     return (
         <>
         
-        <div className="album py-3 bg-light">
+        <div className="album py-3 bg-light ">
 
            
             <div className="pt-2 mt-3 pb-3 pb-md-5 text-center w-100 ">
@@ -133,7 +133,7 @@ function ProjectCards () {
                     {projects.map((card) => (
                         
                         <Col>
-                            <Card  key={card.id} style={styles.card}>
+                            <Card  key={card.id} style={styles.card} className="mx-auto">
                             <Card.Img variant="top" src={card.imgSrc} style={styles.imgStyle}/>
                             <Card.Body>
 

@@ -6,8 +6,8 @@ import Self from '../assets/images/self.png';
 
 const styles = {
     imgStyle: {
-        height: "25rem",
-         width: "25rem"
+        height: "20rem",
+         width: "20rem"
     }
 }
 

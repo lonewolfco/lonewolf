@@ -3,7 +3,7 @@ import '../App.css';
 
 import linkedIn from '../assets/images/LI-black.png';
 import github from '../assets/images/GitHub-Mark-64px.png';
-import mail from '../assets/images/mail-icon-removebg-preview.png';
+import mail from '../assets/images/mail-icon-black.png';
 import download from '../assets/images/download-icon.png';
 import resume from '../assets/images/lo-selby-resume.pdf';
 
@@ -30,9 +30,9 @@ function Navbar () {
               <div id="contact-div" className="col-sm-12 col-md-2 py-4 py-sm-0 pb-sm-3 pt-sm-4 text-center mx-auto my-auto ">
                 <h3 id="shadow" className="text-dark fw-bold">Contact</h3>
               <span>
-                <a className="text-muted" href="https://www.linkedin.com/in/loselby/"><img src={linkedIn} width="25" height="20" alt="LinkedIn Logo"/></a>
-                <a className="text-muted" href="https://github.com/lonewolfco"><img src={github} width="23" height="21" alt="GitHub Logo"/></a>
-                <a className="text-muted" href="mailto:loselby@icloud.com"><img src={mail} width="25" height="22" alt="Mail Icon"/></a>
+                <a className="text-muted mx-1" href="https://www.linkedin.com/in/loselby/"><img src={linkedIn} width="25" height="20" alt="LinkedIn Logo"/></a>
+                <a className="text-muted mx-1" href="https://github.com/lonewolfco"><img src={github} width="23" height="21" alt="GitHub Logo"/></a>
+                <a className="text-muted mx-1" href="mailto:loselby@icloud.com"><img src={mail} width="25" height="22" alt="Mail Icon"/></a>
               </span>
               </div>
             </div>
