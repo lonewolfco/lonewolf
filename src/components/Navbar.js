@@ -47,16 +47,23 @@ function Navbar () {
             <nav>
             <div id="nav" className="navbar navbar-dark shadow-5-strong">
                 <div className="container-fluid">
-                  <a id ="nav-header" href="#" className="navbar-brand d-flex align-items-center justify-content-start">
-                  <img className="mx-2 mesaImg" src={mesa} height="45" width="45" alt="Mesa, Lo's Husky"/> LO SELBY
-                  </a>
-                    <button id="nav-btn" className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon" aria-controls="#navbarHeader" ></span>
-                    </button>
+
+                  <div className="navbar-brand d-flex align-items-center justify-content-start">
+                      <a href="#projects">
+                        <img className="mx-2 mesaImg" src={mesa} height="45" width="45" alt="Mesa, Lo's Husky"/> 
+                      </a>
+
+                      <h1 id ="nav-header"> LO SELBY </h1>
+                  </div>
+
+                      <button id="nav-btn" className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon" aria-controls="#navbarHeader" ></span>
+                      </button>
                 </div>
                 {/* <!-- closing navbar tag --> */}
                 </div>
             </nav>
+            
     </div>
     
     );

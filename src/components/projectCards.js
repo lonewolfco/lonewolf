@@ -42,6 +42,9 @@ const styles = {
         imgStyle: {
             height: '280px', 
         },
+        linkStyle: {
+            textDecoration: 'none',
+        }
 };
 
 const projects = [
@@ -123,7 +126,7 @@ function ProjectCards () {
         <div className="album py-3 bg-light ">
 
            
-            <div className="pt-2 mt-3 pb-3 pb-md-5 text-center w-100 ">
+            <div id="projects" className="pt-2 mt-3 pb-3 pb-md-5 text-center w-100 ">
                 <h1 id="shadow" className=" ms-3" style={styles.header}>Projects</h1>
             </div>
             
@@ -138,7 +141,7 @@ function ProjectCards () {
                             <Card.Body>
 
                                 <Card.Title>
-                                   <h2> <img src={card.titleIconSrc} style={styles.titleIconStyle} /> <a className="link-dark" id="shadow-link" href={card.liveLink}> {card.title} </a></h2>
+                                   <h2> <img src={card.titleIconSrc} style={styles.titleIconStyle} alt="project icon" /> <a className="link-dark" id="shadow-link" href={card.liveLink} style={styles.linkStyle}> {card.title} </a></h2>
                                 </Card.Title>
 
                                 <Card.Text>
