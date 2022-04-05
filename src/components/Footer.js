@@ -21,7 +21,14 @@ function Footer () {
                 
                 <Col  xs={10}  >
                     <div className="justify-content-start">
-                    <h4 className="my-1"><img className="mx-2" src={mesa} height="45" width="45" alt="photo of Mesa, Lo's Husky"/>   &copy; Lone Wolf Co. </h4>
+                    <h4 className="my-1">
+                        <a href="#" className="text-light">
+                        <img className="mx-2 mesaImg" src={mesa} height="45" width="45" alt="Mesa, Lo's Husky"/>
+                        </a>  
+                        &copy; Lone Wolf Co. 
+
+                    </h4>
+                        
                     </div>
 
                 </Col>

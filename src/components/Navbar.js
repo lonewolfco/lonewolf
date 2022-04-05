@@ -6,6 +6,8 @@ import github from '../assets/images/GitHub-Mark-64px.png';
 import mail from '../assets/images/mail-icon-black.png';
 import download from '../assets/images/download-icon.png';
 import resume from '../assets/images/lo-selby-resume.pdf';
+import mesa from '../assets/images/Mesa-Logo.png';
+
 
 function Navbar () {
     return (
@@ -45,9 +47,9 @@ function Navbar () {
             <nav>
             <div id="nav" className="navbar navbar-dark shadow-5-strong">
                 <div className="container-fluid">
-                    <a id ="nav-header" href="#" className="navbar-brand d-flex align-items-center justify-content-start">
-                    LO SELBY
-                    </a>
+                  <a id ="nav-header" href="#" className="navbar-brand d-flex align-items-center justify-content-start">
+                  <img className="mx-2 mesaImg" src={mesa} height="45" width="45" alt="Mesa, Lo's Husky"/> LO SELBY
+                  </a>
                     <button id="nav-btn" className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" aria-controls="#navbarHeader" ></span>
                     </button>

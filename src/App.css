@@ -27,7 +27,7 @@ a {
   font-size: 38px;
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: 700;
 }
@@ -67,36 +67,24 @@ h1 {
   text-shadow: var(--text-shadow);
 }
 
-/* footer styling */
-/* footer {
-  background-color: #caccb9d3;
-} */
+.mesaImg {
+  transition: all 0.3s ease-in-out 0s; 
+}
 
-/* footer p {
-  color: rgba(10, 10, 10, 0.63);
-} */
+.mesaImg:hover
+{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.4s ease-in-out 0.3s;
+}
+
 
 /* card container styling */
 .album {
   background-color:rgb(219, 216, 216);
 }
 
-/* #resumeBtn {
-  margin-bottom: 10px;
-  width: 99px;
-  height: 37px;
-  line-height: 35px;
-  border: solid 1px #343a40;
-  text-align: center;
-  background: rgba(236, 234, 234, 0.747);
-  font-size: .9rem;
-  border-radius: 7px;
-} */
 
-
-/* #resumeBtn:hover{
-  background:rgba(10, 10, 10, 0.452);
-} */
 
 
 #scrollTop {
